@@ -10,3 +10,4 @@ To trigger manually:
 aws lambda invoke --function-name PUT_YOUR_LAMBDA_FUNCTION_NAME_HERE output.json
 
 Look to file roleExample.yml to see a policy example for a lambda role, dont forget do insert your account id in "insert your account id here", naybe you don´t need give permissio to S3 it´s yout choise remove s3 from a policy.
+

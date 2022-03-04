@@ -1,6 +1,6 @@
 # add_rules_security_groups_verizon_ips_lambda
 
-This script can be used in a lambda function to add Verizon cdn ips in a security group automaticly.
+This script can be used in a lambda function to add Verizon cdn ips in a security group automatically.
 The script add IPv4 and IPv6.
 Ask AWS to increase the number of rules per security group to 200 before run it, it can take few days.
 To trigger this function you can use Jenkins, Run Deck or a simple cron but I recommend user AWS CloudWatch Events and trigger that at least once a day.
